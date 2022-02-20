@@ -1,0 +1,22 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "diffEditor.renderSideBySide": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.statusBar.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "files.insertFinalNewline": true,
+}
