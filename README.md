@@ -1,17 +1,31 @@
 # vscode
-VSCodeの設定
 
-参考にしたサイト:
-- [VSCodeをWeb制作用にインストールから日本語化・機能拡張などまとめてみた](https://note.com/mc_kurita/n/n51adb0d67e54)
-- [Visual Studio Codeでhtmlコーディングはリアルタイムプレビューがすごく良い](https://rui-log.com/vscode-html-cording/)
+VSCodeの設定ファイル置き場。コーディング規約やGUI設定ができる。  
+もちろん、プロジェクト毎のコーディング規約を優先します。
 
-やったこと
-- [ダウンロード](https://code.visualstudio.com/)
-- vscode上でやる
+## このリポジトリのファイルについて
+
+```
+.
+├── LICENSE        // MITです。
+└── README.md      // このリポジトリについて
+```
+
+## setting.json
+
+### 使い方
+
+## editorconfig
+
+### 使い方
+
+## ナレッジ
+
+〇〇だから××であるべき、的なことをメモする。一旦ここに載せていく。多くなったら整理する。  
+このナレッジは、ベストエフォートで設定から自動適用されるべき。
+
+memo: https://qiita.com/kitsuyui/items/d8deff40e510e9028482
+https://teratail.com/questions/71778
+
+
   - Japanese Language Pack for Visual Studio Code のインストール
-    EXTENSIONS: MARKETPLACEから検索し、インストールする。
-    その後、エディターを再起動する。  
-    これで、日本語化ができる。
-  - HTML Previewのインストール
-    同上。  
-    Macなら cmd+k → v, Winなら ctrl+k → vでhtmlのプレビューが確認できる。
