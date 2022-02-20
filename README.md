@@ -35,3 +35,8 @@ editorconfigはroot=trueと書かれた.editorconfigが見つかるまでフォ�
 
 〇〇だから××であるべき、的なことをメモする。一旦ここに載せていく。多くなったら整理する。  
 このナレッジは、ベストエフォートで設定から自動適用されるべき。
+
+- ファイル末尾には空白行を入れるべき。なぜなら、「行+改行」があって初めて「行」になるから。  
+POSIXによると、行とは改行コードで区切られるまでの一連のテキストデータの連続のこと。テキストファイルはいくつかの行の集合体のこと。よって、テキストファイルの末尾には空白行が入るはず。他ファイルも同様に行の集合体と考えるのが良いと思う。  
+@see https://bottoms-programming.com/archives/indent-tab-space-and-new-line.html  
+@see https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
