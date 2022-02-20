@@ -11,13 +11,13 @@ VSCodeの設定ファイル置き場。コーディング規約やGUI設定が�
 .
 ├── LICENSE        // MIT
 ├── README.md      // このリポジトリについて
-└── setting.json   // vscodeの設定ファイル
+└── settings.json   // vscodeの設定ファイル
 ```
 
-## setting.json
+## settings.json
 
-ctrl + shift + P, preferences: opensettings (JSON) で表示されるvscodeの設定。
-~/.config/Code/User/settings.json に配置する。
+ctrl + shift + P, preferences: opensettingss (JSON) で表示されるvscodeの設定。
+~/.config/Code/User/settingss.json に配置する。
 新規端末の初期セットアップ時に一度設定し、後は更新だけ取り込む運用の想定。
 ワークスペース毎に置くような使い方はしない。
 

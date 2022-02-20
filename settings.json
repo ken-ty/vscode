@@ -1,4 +1,4 @@
-// setting.jsonはJSON形式だが、"//"でコメント記述できる。(JSON with Comments)
+// settings.jsonはJSON形式だが、"//"でコメント記述できる。(JSON with Comments)
 // Comments are not permitted in JSON.(521) は, 言語モードをjsoncにすれば非表示になる。
 // 設定 + 必要なソースをinstallする。
 
