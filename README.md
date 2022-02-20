@@ -23,15 +23,15 @@ ctrl + shift + P, preferences: opensettingss (JSON) で表示されるvscodeの�
 
 ## editorconfig
 
-プロジェクト毎の設定ファイル。
+プロジェクト毎の設定ファイルの雛形。
+ctrl + shift + P, extensions: install extensions, EditorConfig for VS Code をインストールする必要がある。
+editorconfigはroot=trueと書かれた.editorconfigが見つかるまでフォルダを遡り、フォルダの上から順番に評価していく。
+
+## 最初に入れる拡張一覧
+
+- Japanese Language Pack for Visual Studio Code
 
 ## ナレッジ
 
 〇〇だから××であるべき、的なことをメモする。一旦ここに載せていく。多くなったら整理する。  
 このナレッジは、ベストエフォートで設定から自動適用されるべき。
-
-memo: https://qiita.com/kitsuyui/items/d8deff40e510e9028482
-https://teratail.com/questions/71778
-
-
-  - Japanese Language Pack for Visual Studio Code のインストール

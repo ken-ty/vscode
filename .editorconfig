@@ -1,0 +1,15 @@
+# http://editorconfig.org
+# * ... "/"を覗いた任意の文字列
+# ** ... 任意の文字列
+# ? 任意の１文字
+# [name] nameに一致するもの
+# [!name] nameに一致しないもの
+# {s1,s2,s3} s1,s2,s3に一致する各々
+root = true    # プロジェクトルートであることをeditorconfigに示す
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true    # ファイルの末尾が改行文字でないなら補完する
