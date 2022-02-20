@@ -1,8 +1,32 @@
+// setting.jsonはJSON形式だが、"//"でコメント記述できる。(JSON with Comments)
+// Comments are not permitted in JSON.(521) は, 言語モードをjsoncにすれば非表示になる。
+// 設定 + 必要なソースをinstallする。
+
+// TODO: command + shift + P , install extensions, {拡張名...} で 以下拡張をインストールする。
+// - Material Icon Theme    https://github.com/PKief/vscode-material-icon-theme
+// - EditorConfig for VS Code    https://github.com/editorconfig/editorconfig-vscode
+
 {
+    // workbench設定 GUIの細かい部分のカスタマイズです。
+    "workbench.colorTheme": "Solarized Light",    // カラーテーマ指定
+    "workbench.iconTheme": "material-icon-theme",    // ファイルアイコンのテーマ指定
     "workbench.startupEditor": "none",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.minimap.enabled": false,
+
+    // file設定 
+    // MEMO: .editorconfigがあるならそちらを優先したい
+    "files.insertFinalNewline": true,
+
+    // 拡張の設定
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.defaultDateStyle": "absolute",
+    "gitlens.statusBar.enabled": false,
+
+    // 以下、未整理
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
@@ -10,13 +34,5 @@
     "explorer.confirmDelete": false,
     "window.zoomLevel": 1,
     "diffEditor.renderSideBySide": false,
-    "git.autofetch": true,
-    "workbench.colorTheme": "Solarized Light",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.defaultDateStyle": "absolute",
-    "gitlens.statusBar.enabled": false,
-    "workbench.editor.untitled.hint": "hidden",
-    "files.insertFinalNewline": true,
+    "git.autofetch": true
 }
