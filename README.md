@@ -15,5 +15,3 @@ VSCodeの設定
   - HTML Previewのインストール
     同上。  
     Macなら cmd+k → v, Winなら ctrl+k → vでhtmlのプレビューが確認できる。
-    
-  
